@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /info/lshort/ukrainian
+# catalog-date 2008-08-22 10:50:40 +0200
+# catalog-license other-free
+# catalog-version 4.00
 Name:		texlive-lshort-ukr
 Version:	4.00
 Release:	1
@@ -20,6 +26,7 @@ Ukrainian version of A Short Introduction to LaTeX2e.
 %files
 %doc %{_texmfdistdir}/doc/latex/lshort-ukr/lshort-ukr-4.12.src.tar.gz
 %doc %{_texmfdistdir}/doc/latex/lshort-ukr/lshort-ukr.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -30,3 +37,5 @@ Ukrainian version of A Short Introduction to LaTeX2e.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
