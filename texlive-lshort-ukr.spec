@@ -6,7 +6,7 @@
 # catalog-version 4.00
 Name:		texlive-lshort-ukr
 Version:	4.00
-Release:	6
+Release:	7
 Summary:	Ukrainian version of the LaTeX introduction
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/ukrainian
