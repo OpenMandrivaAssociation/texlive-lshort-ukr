@@ -1,6 +1,6 @@
 Name:		texlive-lshort-ukr
 Version:	55643
-Release:	1
+Release:	2
 Summary:	Ukrainian version of the LaTeX introduction
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/ukrainian
