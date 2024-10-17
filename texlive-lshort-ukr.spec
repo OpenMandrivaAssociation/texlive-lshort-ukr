@@ -3,7 +3,7 @@ Version:	55643
 Release:	2
 Summary:	Ukrainian version of the LaTeX introduction
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/lshort/ukrainian
+URL:		https://www.ctan.org/tex-archive/info/lshort/ukrainian
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-ukr.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-ukr.doc.r%{version}.tar.xz
